@@ -193,3 +193,29 @@ footer .mdi{
         position: static;
     }
 }
+/* colors ==================================================================== */
+.darker-bg{
+    background-color: #27374D;
+}
+.dark-bg{
+    background-color: #526D82;
+}
+.light-bg{
+    background-color: #9DB2BF;
+}
+.lighter-bg{
+    background-color: #DDE6ED;
+}
+
+.darker-txt{
+    color: #27374D;
+}
+.dark-txt{
+    color: #526D82;
+}
+.light-txt{
+    color: #9DB2BF;
+}
+.lighter-txt{
+    color: #DDE6ED;
+}
