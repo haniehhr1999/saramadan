@@ -149,3 +149,7 @@ swiper-slide:hover .txt-slider {
 .help{
     text-align: justify;
 }
+/* footer -------------------------------------------------------------- */
+footer .mdi{
+    font-size: 30px;
+}
