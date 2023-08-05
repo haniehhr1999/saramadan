@@ -30,10 +30,24 @@ body {
 header a{
     transition: 0.5s;
 }
-header a:hover{
-    background: #9DB2BF;
-    box-shadow: rgba(0, 0, 72, 0.81) 0px 13px 27px -5px,
-      rgba(0, 0, 0, 0.845) 0px 8px 16px -8px;
+header.light-bg a{
+    background: #d2d8f0;
+    color: #27374D !important;
+}
+header.light-bg a:hover{
+    background: #526D82;
+    color: #27374D !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+header.light-bg a:hover{
+    background: #d2d8f0;
+    color: #27374D !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+header.dark-bg a{
+    background: #27374D;
+    color: #ffffff !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 header #title{
     font-family: nastaliq;
@@ -68,7 +82,7 @@ li{
     transition: 0.5s;
 }
 li:hover {
-    background-color: #27374D;
+    background-color: #9DB2BF;
 }
 li:hover a{
     color: #fff;
@@ -135,14 +149,24 @@ swiper-slide:hover .txt-slider {
     color: #fff;
     transition: 0.5s;
 }
-.read-more button:hover{
+.read-more button.darker-bg:hover{
     background: #526D82;
-    
+}
+.read-more button.lighter-bg{
+    color: #001026;
+}
+.read-more button.lighter-bg:hover{
+    color: #001026;
+    background: #526D82;
 }
 .read-more-blog{
     transition: 0.5s;
 }
-.read-more-blog:hover{
+.blog.darker-bg .read-more-blog:hover{
+    background-color: #001026;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.blog.lighter-bg .read-more-blog:hover{
     background-color: #27374D;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
@@ -151,20 +175,20 @@ swiper-slide:hover .txt-slider {
 }
 /* footer -------------------------------------------------------------- */
 footer .mdi{
-    font-size: 30px;
+    font-size: 20px;
 }
 /* breack points ==================================================================== */
 /* xs  */
-@media screen and (min-width: 0)and (max-width: 575px){
+/* @media screen and (min-width: 0)and (max-width: 575px){
     ul{
         padding: 20px 0 !important;
         position: absolute;
         z-index: 999;
         right: 100%;
     }
-}
+} */
 /* sm  */
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
     ul{
         padding: 20px 0 !important;
         position: absolute;
@@ -194,6 +218,9 @@ footer .mdi{
     }
 }
 /* colors ==================================================================== */
+.verydark-bg{
+    background-color: #001026;
+}
 .darker-bg{
     background-color: #27374D;
 }
@@ -207,6 +234,9 @@ footer .mdi{
     background-color: #DDE6ED;
 }
 
+.verydark-txt{
+    color: #001026;
+}
 .darker-txt{
     color: #27374D;
 }
