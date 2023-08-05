@@ -41,3 +41,111 @@ header #title{
 .material-symbols-outlined {
     font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
 }
+.icons {
+    border-radius: 7px;
+    background-color: #d2d8f0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.icons:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.icons-gp {
+    border-radius: 7px;
+}
+ul , .help-container{
+    border-radius: 7px;
+}
+li a {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s;
+}
+li{
+    border-radius: 7px;
+    transition: 0.5s;
+}
+li:hover {
+    background-color: #27374D;
+}
+li:hover a{
+    color: #fff;
+}
+.col-1 {
+    background: #000;
+    height: 100vh;
+}
+/* slider-----------------------------------------------------------  */
+swiper-container {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    border-radius: 7px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.txt-slider{
+    display: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.545);
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    z-index: 99999;
+}
+swiper-slide:hover .txt-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* end slider-----------------------------------------------------------  */
+/* blog-----------------------------------------------------------------  */
+.blog {
+    background-color: #fff;
+    transition: 0.5s;
+    border-radius: 7px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.blog:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.607) 0px 8px 16px -8px;
+}
+.read-more button{
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    transition: 0.5s;
+}
+.read-more button:hover{
+    background: #526D82;
+    
+}
+.read-more-blog{
+    transition: 0.5s;
+}
+.read-more-blog:hover{
+    background-color: #27374D;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.help{
+    text-align: justify;
+}
